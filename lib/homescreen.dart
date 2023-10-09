@@ -1,3 +1,20 @@
+//pd.ListView.builder(itemBuilder: (context, index) => pd.Container(
+  //        height: 80,
+    //      width: double.infinity,
+      //    padding: pd.EdgeInsets.all(10),
+        //  margin: pd.EdgeInsets.all(10),
+          //decoration: pd.BoxDecoration(
+            //border: pd.Border.all(color: PdfColors.black,width: 1.5,),
+          //),
+          //child: pd.Row(
+           // mainAxisAlignment: pd.MainAxisAlignment.spaceEvenly,
+            //children: [
+             // pd.Text('${productName[index]}',style:pd.TextStyle(fontSize: 20,), ),
+              //pd.Text('${productAmount[index]}',style:pd.TextStyle(fontSize: 20,), ),
+              //pd.Text('${productQty[index]}',style:pd.TextStyle(fontSize: 20,), ),
+            //],
+          //),
+
 import 'package:flutter/material.dart';
 import 'package:invoice/pdfscreen.dart';
 import 'package:invoice/utils/productname.dart';
