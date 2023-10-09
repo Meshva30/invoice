@@ -6,6 +6,7 @@ List productQty = [
   1
 ];
 
-List productAmount = [
+List<int> productAmount = [
  500000
 ];
+int total =0;

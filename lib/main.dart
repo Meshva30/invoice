@@ -7,6 +7,7 @@ import 'package:invoice/splacescreen.dart';
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
 
       routes: {
         '/': (context) => Splacescreen(),

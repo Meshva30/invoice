@@ -47,8 +47,9 @@ class _AddScreenState extends State<AddScreen> {
           backgroundColor: Colors.blue,
           onPressed: (){
             setState(() {
+              int finalAmount = int.parse(txtproductQty.text)*int.parse(txtproductAmount.text);
               productName.add(txtproductName.text);
-              productAmount.add(txtproductAmount.text);
+              productAmount.add(finalAmount);
               productQty.add(txtproductQty.text);
               Navigator.of(context).pushReplacementNamed('home');
 
