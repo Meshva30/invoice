@@ -329,7 +329,14 @@ generatePdf() async {
               child: pd.Text('Total Amount 27350.0/-',
                   style: pd.TextStyle(color: PdfColors.black, fontSize: 20)),
             ),
-               pd.Image(netImage),
+               pd.SizedBox(height: 20),
+          pd.Container(
+              height: 150,
+              width: 150,
+              child: pd.Image(
+                netImage,
+              ),
+            ),
           ]),
 
         );
